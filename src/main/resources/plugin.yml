@@ -1,0 +1,11 @@
+name: SkyAddons
+version: '${project.version}'
+main: com.ishyro.core.SkyAddons
+api-version: '1.19'
+
+commands:
+  heal:
+    description: Comando de curacion
+    usage: /<command>
+    aliases:
+      - curar
